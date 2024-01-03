@@ -5,10 +5,6 @@ namespace tamagotchiProject.View;
 
 internal class TamagotchiView
 {
-
-    //MostrarDetalhesDaEspecie(PokemonDetailsResult detalhes)  ConfirmarAdocao()
-    //MostrarMascotesAdotados(List<PokemonDetailsResult> mascotesAdotados)
-    //ObterEspecieEscolhida(List<PokemonResult> especies)
     public string ExibirMensagemDeBoasVindas()
     {
         Console.WriteLine("\n ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────");
