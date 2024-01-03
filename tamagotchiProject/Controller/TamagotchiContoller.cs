@@ -135,7 +135,7 @@ internal class TamagotchiContoller
                                     Console.ReadKey();
                                     Console.Clear();
                                     break;
-                                case 5: if (tamagotchiView.EscolhaDeOutroMascoteParaInteracao())
+                                case 5: if (tamagotchiView.EscolhaDeOutroMascoteParaInteracao() == true)
                                     {
                                         tamagotchiView.ExibirMascotesAdotados(mascotesAdotados); //vai exibir a lista se houver
                                         Console.WriteLine("Selecione com qual deles você deseja interagir ...");
@@ -153,7 +153,6 @@ internal class TamagotchiContoller
                             }  
                         }
                     }
-                    Console.ReadKey();
                     Console.Clear();
                     break;
                 case 3://sair do jogo

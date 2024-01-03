@@ -132,12 +132,16 @@ internal class TamagotchiView
     }
     public bool EscolhaDeOutroMascoteParaInteracao()
     {
-        Console.WriteLine("Deseja interagir com outro mascote da lista? \n(s/n)...");
+        Console.WriteLine("\nDeseja interagir com outro mascote da lista? \n(s/n)...");
         string aux = Console.ReadLine();
         if (aux == "s")
         {
             return true;
         }
-        else return false;
+        else
+        {
+            Console.WriteLine("\nRegressando ao menu anterior");
+            return false;
+        }
     }
 }
