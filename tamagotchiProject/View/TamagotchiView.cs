@@ -49,7 +49,6 @@ internal class TamagotchiView
     }
     public void ExibirEspeciesDisponiveis(List<PokemonResult> especies)
     {
-        //compreender como é feita a chamada na controller
         Console.Clear();
         Console.WriteLine("\n───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────");
         Console.WriteLine("Lista de espécies:");
